@@ -159,7 +159,7 @@ function calculateVelocity() {
     
 
     //Aqui termina el codigo para el ejercicio 2
-    
+    const velocidad = distancia / tiempo; //usa esta constante para calcular la velocidad   
     // Mostrar la fórmula con los valores
     document.getElementById('formulaExplanation').textContent = `V = ${distancia} / ${tiempo}`;
     
@@ -258,9 +258,14 @@ function calculateCommissions() {
     //Realiza las operaciones necesarias para calcular las comisiones de acuerdo a los outputs
     
     // Calcular totales usando solo operadores aritméticos
-    const totalVentas = 0; //Esta es la constante inicializada para el total de ventas
-    const totalComisiones = 0; //Esta es la constante inicializada para el total de comisiones
-    const totalRecibir = 0; //Esta es la constante inicializada para el total a recibir
+    let totalVentas = 0; //Esta es la constante inicializada para el total de ventas
+    let totalComisiones = 0; //Esta es la constante inicializada para el total de comisiones
+    let totalRecibir = 0; //Esta es la constante inicializada para el total a recibir
+    //Usa estas constantes para calcular los totales de acuerdo a los outputs
+    totalVentas = venta1 + venta2 + venta3; //usa esta constante para calcular el total de ventas
+    totalComisiones = comision1 + comision2 + comision3; //usa esta constante para calcular el total de comisiones
+    totalRecibir = sueldoBase + totalComisiones; //usa esta constante para calcular el total a recibir     
+    
 
     //Realiza las operaciones necesarias para calcular las comisiones y los totales de acuerdo a los outputs
     
