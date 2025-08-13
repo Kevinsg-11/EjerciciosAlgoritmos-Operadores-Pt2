@@ -254,9 +254,9 @@ function calculateCommissions() {
     // Declara las constantes necesarias para el ejercicio 3 de acuerdo a los outputs
     // Calcular comisiones usando solo operadores aritméticos (10% = 0.1)
     //Usa estas constantes para calcular las comisiones de acuerdo a los outputs
-    const comision1=0; //Esta es la constante inicializda para la primera comision
-    const comision2=0; //Esta es la constante inicializada para la segunda comision
-    const comision3=0; //Esta es la constante inicializada para la tercera comision
+    const comision1=(10* venta1)/100; //Esta es la constante inicializda para la primera comision
+    const comision2=(10* venta2)/100; //Esta es la constante inicializada para la segunda comision
+    const comision3=(10* venta3)/100; //Esta es la constante inicializada para la tercera comision
 
     //Realiza las operaciones necesarias para calcular las comisiones de acuerdo a los outputs
     
